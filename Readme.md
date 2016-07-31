@@ -10,8 +10,6 @@ Help Me is an Well Being On Demand Application that connects vulnerable people w
 
 In 2014-15 there were 4.0 million Australians (17.5%) who reported having a mental or behavioural condition.
 
-Help Me is an on-demand application connecting vulnerable people to crisis support 24/7. People connect with listeners on 7 Cups of Tea for all kinds of reasons, from big existential thoughts to small, day-to-day things that we all experience. Unlike talking to family or friends, a 7 Cups of Tea listener doesn’t judge or try to solve problems and say what to do. Our listeners just listen. They understand. They give you the space you need to help you clear your head.
-
 The virtual assistant algorithm is sympathetic to emotional feedback and tone of voice. Via interactive chat, the virtual assistant will recommend appropriate services whether it is an activity to try or connect to a professional who are available. Among the list of available professionals who are connected with Help Me, the most appropriated will be connected to the help seeker. Help me also provide directions to the nearest facility using augmented reality interface which is safer than looking down at a map on your phone while walking. Help Me also suggests wellness activities like meditation classes and the nearest parks for exercise and walks.
 
 #### XMPP based real-time messaging
