@@ -1,5 +1,7 @@
 ## Help Me
 
+![helpme logo](img/Helpmeicon.png)
+
 Tag-line: 
 
 
