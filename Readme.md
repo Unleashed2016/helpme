@@ -14,6 +14,16 @@ Help Me is an on-demand application connecting vulnerable people to crisis suppo
 
 The virtual assistant algorithm is sympathetic to emotional feedback and tone of voice. Via interactive chat, the virtual assistant will recommend appropriate services whether it is an activity to try or connect to a professional who are available. Among the list of available professionals who are connected with Help Me, the most appropriated will be connected to the help seeker. Help me also provide directions to the nearest facility using augmented reality interface which is safer than looking down at a map on your phone while walking. Help Me also suggests wellness activities like meditation classes and the nearest parks for exercise and walks.
 
+#### XMPP based real-time messaging
+
+XMPP based library Strophejs has been used for real-time text transmitted instantly while it is being typed or created. The recipient can immediately read the sender's text as it is written, without waiting. This can be used in Help Me for two purposes - to interact with real professionals offering their free time for the community, and to interact with a bot which interfaces with an experimental empathetic subject matter specific virtual assistant which will try to determine and point out services which can come to the user's aid.
+
+#### Subject matter specific virtual assistant (experimental)
+
+There are two main elements to it that you set up within your app – intents and entities. An intent is what action an instruction should take (e.g. point to NGOs - like Lifeline support call centers - working with people in crisis in the immediate vicinity). An entity is a specific object or piece of information that our AI needs to know about to enact that intent (e.g. what kind of crisis support service?).
+
+Wit.ai provides the service to convert verbal commands into text and can also be trained up in how to understand those commands. Wit.ai has the concept of “roles”, where it can learn to differentiate between entities in different contexts (e.g. numbers in different parts of an instruction can refer to different things – like age of the user). An experimental virtual assistant can be developed using services like Wit.ai and a XMPP based chat bot can be used to interface the user to the virtual assistant.
+
 #### Augmented reality based geolocation, routing and navigation:
 
 We have developed the proof-of-concept of a browser-based Augmented Reality app to locate services which are open at the time of use (of the app) around the user. This kind of app would be normally developed using native APIs of the mobile phone OS (Android/iOS/Windows Mobile) and is extremely complex. The key concept is to use the mobile device sensors, mainly accelerometer, magnetometer, GPS, camera to establish the current location, orientation and point-of-view (in terms of camera viewport) of the device. On top, of the camera feed on the phone screen, data is superimposed in transparent/semi-transparent layers. This is done by creating virtual markers based on geolocated dataset(s) and using algorithms to determine the approximate distance and direction of heading for the marker in relation to the user's (and phone camera's) point-of-view. Navigation features can be added by using the phone's motion sensors to determine direction of movement as well.
